@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <form onsubmit="contar(event)">
+            <div id='inputs'>
+                <label for="idInicio">Início: </label>
+                <input class="botoes" type="number" name="inicio" id="idInicio" required>
+                <br>
+                <label for="idFim">Fim: </label>
+                <input class="botoes" type="number" name="fim" id="idFim" required>
+                <br>
+                <label for="idPasso">Passo: </label>
+                <input class="botoes" type="number" name="passo" id="idPasso" required >
+            </div>
+            <div>
+                <input type="submit" value="Contar">
+            </div>
+            <p id="paragrafoFinal">Preparando a contagem...</p>
+            <p id="contagem"></p>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
