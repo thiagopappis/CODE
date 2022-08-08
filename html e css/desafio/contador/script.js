@@ -2,6 +2,8 @@
 function contar(event) {
     event.preventDefault();
 
+    //trocar let por const
+
     let inputInicio = document.getElementById('idInicio');
     let inputFim = document.getElementById('idFim');
     let inputPasso = document.getElementById('idPasso');
@@ -23,11 +25,3 @@ function contar(event) {
         paragrafoContagem.innerText = cntdContagem;
     }
 }   
-
-/* if(contador == dadoInicio){
-    cntdContagem += " " + String(contador) + " "
-}
-else {
-    cntdContagem += " " + String(contador) + " "
-}
-(contador += dadoPasso); */

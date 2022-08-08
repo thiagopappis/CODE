@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Pokemón</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <h1 id="titulo">Trabalhando com <strong>HTML</strong>, <strong>CSS</strong> e usando o <strong>JavaScript</strong> para fazer consultas online.</h1>
+            <hr>
+        </header>
+        <main>
+            <div>
+                <img id="imgPK" src="imagem/pokemon-logo.png" alt="">
+            </div>
+            <label id="labelPesquisa" for="iPesquisa">Nome ou Número do Pokémon:</label>
+            <input type="text" name="pesquisa" id="iPesquisa">
+            <input type="submit" value="BUSCAR" id="inputBuscar">
+            <div id="iconePokemon" id="vidIcones">
+                <div id="frentePokemon"><img src="imagem/frente.png" alt="ÍconeFrentePokemón"></div>
+                <div id="costasPokemon"><img src="imagem/costas.png" alt="ÍconeCostasPokémon"></div>
+            </div>
+        </main>
+        <footer>
+            <div>Nome: <p class="pFooter">Kingler</p></div>
+            <div>Type: <p class="pFooter">Water</p></div>
+        </footer>
+    </section>
+</body>
+</html>

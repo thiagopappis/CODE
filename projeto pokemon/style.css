@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(240, 248, 255);
+}
+
+section {
+    background-color: white;
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.325);
+}
+
+header {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+#titulo {
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+#iconePokemon {
+    display: inline-block;
+    width: 100px;
+}
+
+#frentePokemon {
+    margin-top: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+}
+
+#costasPokemon {
+    margin-top: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+}
+
+#divIcones {
+
+}
+
+hr {
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.284);
+    border-radius: 10px;
+}
+
+main {
+    padding: 20px 0px 10px 0px;
+}
+
+#imgPK {
+    width: 340px;
+    display: block;
+    margin: 0 auto;
+}
+
+#labelPesquisa {
+    color: rgb(18, 31, 125);
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#iPesquisa {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.249);
+}
+
+#inputBuscar {
+    display: block;
+    margin: 0 auto;
+    width: 354px;
+    height: 35px;
+    background-color: rgb(16, 26, 101);
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.pFooter {
+    display: inline-block;
+}
+
+strong {
+    color: rgb(34, 52, 191);
+}
