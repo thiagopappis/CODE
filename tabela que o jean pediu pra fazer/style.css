@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9em;
+    background-color: rgb(217, 232, 255);
+}
+
+#divBusca {
+    margin-left: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px 0px 7px 0px;
+    padding-left: 20px;
+    background-color: rgb(75, 20, 158);
+    width: 350px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.532);
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+#iBusca::placeholder{
+    color: #000;
+}
+
+#iBusca {
+    height: 17px;
+    background-color: rgb(210, 215, 255);
+    border-color: rgb(43, 54, 152);
+}
+
+#btnBusca {
+    margin-left: -5px;
+    margin-top: 9px;
+    background-color: rgb(202, 201, 255);
+}
+
+#legendaPesquisa {
+    font-size: 1.2em;
+}
+
+caption{
+    padding: 5px;
+}
+
+tbody > tr:hover {
+    background-color: rgb(207, 255, 255);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(195, 196, 255);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(236, 232, 255);
+}
+
+th {
+    background-color: rgb(167, 155, 255);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+#divContainer {
+    display: flex;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.53);
+    
+}
+
+#tableGeral {
+    max-height: 120px;
+}
+
+#tableSelecionados {
+    visibility: hidden;
+    max-height: 10px;
+}
+
+#tbody1 > tr {
+    cursor: pointer;
+}
+
+caption {
+    background-color: rgb(75, 20, 158);
+    color: white;
+}
+
+tr.trClass {
+    background-color: rgb(135, 135, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.firstDiv {
+    display: inline-block;
+    margin-left: 190px;
+}
+
+.secondDiv {
+    display: inline-block;
+    margin-left: 22px;
+}
+#trFooter{
+    background-color: rgb(135, 135, 255);
+}
+
+.valorTD{
+    text-align: right;
+}
+
+#divBotaoSelect{
+    display: inline;
+    margin-left: 350px;
+}
+
+#btnSelect {
+    background-color: rgb(139, 106, 255);
+    border-radius: 5px;
+    border-color: rgb(93, 35, 147);
+    color: white;
+    font-weight: bold;
+}
+
+#btnSelect:hover {
+    background-color: rgb(235, 213, 255);
+}

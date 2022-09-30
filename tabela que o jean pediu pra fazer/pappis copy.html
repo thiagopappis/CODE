@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentos</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .text-left {
+            text-align: left !important;
+        }
+
+        .text-right {
+            text-align: right !important;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="divBusca">
+        <label id="legendaPesquisa" for="iBusca">Pesquisar: </label>
+        <input type="text" name="busca" id="iBusca" placeholder="Insira a busca aqui...">
+        <input id="btnBusca" type="submit" value="&#x1F50D;" onclick="pesquisar()">
+    </div>
+        <div id="divContainer">
+            <table id="tableGeral">
+                <caption>Documentos</caption>
+                <thead>
+                    <tr>
+                        <th>Entidade</th>
+                        <th>Nome</th>
+                        <th>Chave</th>
+                        <th class="text-left">Número</th>
+                        <th class="text-right">Valor R$</th>
+                        <th>
+                            <input type="checkbox" id="selectAll">
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="tbody1">
+                </tbody>
+                <tfoot class="table__footer">
+                    <tr class="text-center" id="trFooter">
+                        <td colspan="11" id="tdFooter">
+                            <div id="divBotaoSelect"><input type="button" value="Selecionar" id="btnSelect"></div>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <table id="tableSelecionados">
+                <caption>Documentos</caption>
+                <thead>
+                    <tr>
+                        <th>Entidade</th>
+                        <th>Nome</th>
+                        <th>Chave</th>
+                        <th class="text-left">Número</th>
+                        <th colspan="2" class="text-right">Valor R$</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody2">
+                    
+                </tbody>
+                <tfoot class="table__footer">
+                    <tr class="text-center" id="trFooter">
+        
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    <script src="scriptFinal.js"></script>
+</body>
+
+</html>
